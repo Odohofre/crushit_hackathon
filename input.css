@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo1 {
+    display: block;
+  }
+
+  #logo2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #logo1 {
+    display: none;
+  }
+
+  #logo2 {
+    display: block;
+  }
+}
